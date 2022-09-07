@@ -1,0 +1,228 @@
+
+
+.header{
+    background-color: #fff;
+}
+
+header{
+    display: block;
+}
+
+
+.header-top-holder-navigation{
+
+}
+
+
+
+.header-main{
+    border-bottom: 1px solid #e6f5f6;
+    padding: 16px 0;
+}
+
+.header-main-holder,.header-main-holder-brand{
+    display: flex;
+    align-items: center;
+}
+
+.header-main-holder{
+    justify-content: space-between;
+}
+
+.header-main-holder-logo{
+    display: flex;
+    width: 79px;
+}
+
+@media (min-width: 1200px) {
+    .Logo {
+        display: block;
+    }
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 1200px) {
+    .header-main-holder-logo {
+        width: 96px;
+    }
+}
+
+img{
+    border-style: none;
+}
+
+.header-main-holder-navigation{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    transition: all .3s ease-in-out;
+}
+
+.header-main-holder-navigation-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header-main-holder-navigation-list-item{
+    list-style-type: none;
+}
+
+li{
+    display: list-item;
+}
+
+.header-main-holder-navigation-list-item-link{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Lora', sans-serif !important;
+    color: #313131;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.header-main-holder-navigation-list-item-link:hover{
+    color:	var(--bg-rose);
+}
+
+.header-main-holder-action{
+    margin-left:auto
+}
+
+
+.Navbar__Link-toggle {
+    display: none;
+}
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .navbar-items,
+    .header-main-holder {
+        flex-direction: column;
+    }
+    .header-main-holder-action{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-items,
+    .header-main-holder {
+        flex-direction: column;
+    }
+    .navbar-items {
+        display:none;
+    }
+    .header-main-holder-action {
+        margin-left:0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-top {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-main {
+        padding: 16px 0;
+    }
+}
+
+@media (min-width: 1248px) {
+    .wrapper {
+        width: 1216px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .header-main-holder-navigation {
+        position: inherit;
+        left: inherit;
+        right: inherit;
+        top: inherit;
+        bottom: inherit;
+        z-index: inherit;
+        width: auto;
+        background-color: transparent;
+        height: inherit;
+        min-height: inherit;
+        flex-grow: inherit;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logIn {
+        background-color: transparent !important;
+        color: var(--bg-rose) ;
+        min-width: 100px !important;
+        padding: 6px 22px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .signIn{
+        display: block;
+        padding: 7px 12px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-main-holder-action .menu-toggle {
+        display: none;
+    }
+}
+
+/*.header-main-holder-action .menu-toggle {*/
+/*    position: relative;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    z-index: 2;*/
+/*    margin-left: 24px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.header-main-holder-action .menu-toggle .trigger {*/
+/*    position: relative;*/
+/*    height: 2px;*/
+/*    width: 100%;*/
+/*    border-radius: 2px;*/
+/*    display: inline-block;*/
+/*    background-color: #314054;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+@media (min-width: 1200px) {
+    .header-main-holder-navigation-list {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-main-holder-navigation-list-item {
+        margin: 0 20px;
+    }
+}

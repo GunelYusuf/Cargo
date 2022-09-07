@@ -1,0 +1,343 @@
+.footer {
+    margin-top: 57px;
+    padding: 32px 40px 15px;
+    background: #373736;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 5%);
+    border-radius: 8px 8px 0 0;
+}
+
+/*!*@media screen and (max-width: 1650px){*!*/
+/*!*    .container, .container-sm, .container-md, .container-lg, .container-xl {*!*/
+/*!*        max-width: 1050px;*!*/
+/*!*    }*!*/
+/*!*}*!*/
+
+/*!*@media (min-width: 1200px){*!*/
+/*!*    .container, .container-lg, .container-md, .container-sm, .container-xl {*!*/
+/*!*        max-width: 1140px;*!*/
+/*!*    }*!*/
+/*!*}*!*/
+
+/*@media (min-width: 992px){*/
+/*     .container, .container-lg, .container-md, .container-sm {*/
+/*            max-width: 960px;*/
+/*     }*/
+/*}*/
+
+ /*@media (min-width: 768px){*/
+ /*    .container, .container-md, .container-sm {*/
+ /*        max-width: 720px;*/
+ /*    }*/
+ /*}*/
+
+ /*@media (min-width: 576px){*/
+ /*   .container, .container-sm {*/
+ /*       max-width: 540px;*/
+ /*      }*/
+ /*   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {*/
+ /*      width: 100%;*/
+ /*      padding-right: 15px;*/
+ /*      padding-left: 15px;*/
+ /*      margin-right: auto;*/
+ /*      margin-left: auto;*/
+ /*      }*/
+ /*}*/
+
+
+.footer-main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-left {
+    margin-right: 50px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 22px;
+}
+a {
+    color: #373736;
+    outline: 0;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.footer-social {
+    margin-top: 28px;
+}
+
+.footer-social a {
+    margin-left: 14px;
+}
+
+.footer-contact > a {
+    display: block;
+    text-align: right;
+}
+
+.footer-social {
+    margin-top: 28px;
+}
+
+.footer-app a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    margin-top: 26px;
+    padding-top: 17px;
+    border-top: 1px solid #585858;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-copy {
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-copy a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-payment {
+    display: flex;
+}
+.footer-payment img {
+    margin-left: 30px;
+}
+
+
+
+.footer-app a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.footer-menu {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.footer-menu-col {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.footer-menu-col a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 576px){
+    .d-sm-none {
+        display: none!important;
+    }
+    .d-block {
+        display: block!important;
+    }
+}
+
+@media (min-width: 576px){
+    .d-sm-none {
+        display: none!important;
+    }
+    .d-block {
+        display: block!important;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .d-sm-block {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .footer-main {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-logo {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+   .footer-logo img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer-logo + a img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-app {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-app a {
+        width: calc(100% / 2);
+        margin-right: 0;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .footer-app a img {
+        height: 42px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-app a img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-app a:last-child {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 575px){
+        .footer-app a {
+            width: calc(100% / 2);
+            margin-right: 0;
+            padding-right: 15px;
+   }
+}
+
+@media screen and (max-width: 425px){
+    .footer-app a img {
+        height: 42px;
+    }
+}
+
+    @media screen and (max-width: 575px){
+        .footer-app a img {
+            width: 100%;
+        }
+    }
+
+@media screen and (max-width: 575px){
+    .footer-menu {
+        margin-bottom: 30px;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-menu-col {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-social {
+        width: calc(100% / 2);
+        margin-top: 0;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer-social a {
+        margin-right: 6px;
+    }
+}
+    @media screen and (max-width: 575px){
+        .footer-social a {
+            margin-left: 0;
+            margin-right: 14px;
+        }
+    }
+
+@media screen and (max-width: 575px){
+    .footer-app {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .footer-app a:last-child {
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .d-sm-none {
+        display: none !important;
+    }
+}
+ @media screen and (max-width: 575px){
+       .footer-app a {
+            width: calc(100% / 2);
+            margin-right: 0;
+            padding-right: 15px;
+        }
+    }
+
+@media screen and (max-width: 425px){
+    .footer-app a img {
+        height: 42px;
+    }
+}
+
+    @media screen and (max-width: 575px){
+
+        .footer-app a img {
+            width: 100%;
+        }
+    }
+
+
+
+
+

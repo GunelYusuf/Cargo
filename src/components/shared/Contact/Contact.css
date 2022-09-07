@@ -1,0 +1,136 @@
+.heading--center {
+    text-align: center;
+}
+.heading {
+    position: relative;
+}
+.heading__title {
+    color: #c9ffc7;
+}
+.heading__title {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 56px;
+}
+ .heading__text {
+    margin-bottom: 37px;
+}
+
+.heading__text {
+    max-width: 680px;
+    margin: 0 auto;
+}
+.text-font {
+    font-size: 18px !important;
+    line-height: 32px !important;
+}
+
+
+ .contact__content {
+    display: flex;
+    gap: 32px;
+}
+
+.contact__column {
+    padding: 31px 31px 47px;
+    flex: 1;
+}
+
+.section-structure {
+    background-color: #faa658 !important;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgb(24 28 31 / 20%);
+}
+ .contact__content h4 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact__column--input h4 {
+    margin-bottom: 8px !important;
+}
+
+.contact__column--input p {
+    margin-bottom: 38px;
+}
+.contact__column h4 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+
+ .contact__content ul {
+    margin-bottom: 55px;
+}
+ul {
+    list-style: none;
+}
+
+ .contact__content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact__content li:first-of-type .room{
+    color: #FFE249;
+}
+
+.contact__content li:nth-of-type(2) .room {
+    color: #7158c9;
+}
+.contact__content li:nth-of-type(3) .room {
+    color: #4aaf36;
+}
+
+.contact__content li:last-of-type .room {
+    color: #be6f18;
+}
+
+.contact__content li .room {
+    margin-right: 24px;
+}
+
+.room.icon-lg {
+    font-size: 36px;
+}
+
+.icon-outline, .icon-bg {
+    width: min-content;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+
+.contact-form .contact-input {
+    padding: 15px;
+    margin-bottom: 32px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #20720e;
+}
+
+.bg-input {
+    background-color: #dce7f8 !important;
+    font-weight: 500;
+}
+
+.form-floating>.contactIn{
+     height: 56px;
+     color: #fff;
+}
+
+.contact-btn{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    font-weight: 500;
+    min-width: 144px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #f5404e;
+    color: #ffffff;
+}

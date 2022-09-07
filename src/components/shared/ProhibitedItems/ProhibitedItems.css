@@ -1,0 +1,31 @@
+.section-heading {
+    text-align: center;
+}
+
+.editor-content {
+    color: #1a2b41;
+}
+a {
+    background-color: transparent;
+}
+
+@media (min-width: 991px){
+    .section-heading__space {
+        margin-bottom: 56px;
+    }
+}
+
+@media (min-width: 991px){
+    .editor-content {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 1060px){
+    .wrapper-middle {
+        width: 992px;
+        margin: 0 auto;
+    }
+}
+

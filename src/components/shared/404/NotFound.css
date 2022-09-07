@@ -1,0 +1,176 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+
+.flex {
+   display: flex;
+}
+
+.bg-white {
+   background-color: #fff;
+}
+
+.max-w-sm {
+    max-width: 30rem;
+}
+.m-8 {
+    margin: 2rem;
+}
+
+.text-5xl {
+   font-size: 3rem;
+}
+
+.text-black {
+    color: #22292f;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+.w-16 {
+    width: 4rem;
+}
+.my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.h-1 {
+    height: 0.25rem;
+}
+.bg-purple-light {
+    background-color: #a779e9;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+.text-grey-darker {
+    color: #606f7b;
+}
+.mb-8 {
+    margin-bottom: 2rem;
+}
+.leading-normal {
+    line-height: 1.5;
+}
+.font-light {
+    font-weight: 300;
+}
+p {
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+.w-full {
+    width: 100%;
+}
+.relative {
+    position: relative;
+}
+.pb-full {
+    padding-bottom: 100%;
+}
+
+.pin {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.absolute {
+    position: absolute;
+}
+.bg-cover {
+    background-size: cover;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.not{
+    background-image: url("./404.jpeg");
+}
+
+
+.btn404{
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-color: black;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: visible;
+}
+
+
+@media (min-width: 768px){
+    .md\:flex {
+        display: flex;
+    }
+}
+@media (min-width: 768px){
+    .md\:bg-left {
+        background-position: left;
+    }
+}
+
+@media (min-width: 768px){
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .md\:text-15xl {
+        font-size: 9rem;
+    }
+}
+@media (min-width: 768px){
+    .md\:my-6 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media (min-width: 768px){
+    .md\:text-3xl {
+        font-size: 1.875rem;
+    }
+}
+
+@media (min-width: 768px){
+    .md\:pb-0 {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px){
+    .md\:min-h-screen {
+        min-height: 100vh;
+    }
+}
+
+
+@media (min-width: 992px){
+    .lg\:bg-center {
+        background-position: center;
+    }
+}
+
+
