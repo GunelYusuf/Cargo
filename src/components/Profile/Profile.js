@@ -121,14 +121,14 @@ function Profile() {
                                             <div className="input-flex bg-input">
                                                 <div className="form-floating w-100  ">
                                                     <input type="text" id="links-product_link"
-                                                           className="form-control product-link"
+                                                           className="form-control product-link count-input"
                                                            name="Links[product_link][]"
                                                            placeholder="Məhsulun linki"/><label
                                                         className="floating-label"
                                                         htmlFor="links-product_link">Link</label>
                                                 </div>
                                                 <span className="btn btn--icon">
-                                                    <OpenInNewOutlinedIcon/>
+                                                    <OpenInNewOutlinedIcon className="open"/>
                                                 </span>
                                             </div>
                                         </div>
@@ -137,7 +137,7 @@ function Profile() {
                                                 <div className="neworder-input bg-input"><label
                                                     className="floating-label" htmlFor="links-product_count">Say</label><input
                                                     type="text" id="links-product_count"
-                                                    className="form-control bg-input product-count"
+                                                    className="form-control bg-input product-count count-input"
                                                     name="Links[product_count][]" placeholder="0"/></div>
                                             </div>
                                             <div className=" field-links-product_price required">
@@ -205,7 +205,7 @@ function Profile() {
 
 
                                 <span className="btn btn--secondary add-neworder add-new-product">
-                                     <AddCircleOutlineOutlinedIcon/>
+                                     <AddCircleOutlineOutlinedIcon className="open"/>
                                   <span className="ms-2">Yeni məhsul əlavə et</span>
                                 </span>
 
@@ -217,7 +217,7 @@ function Profile() {
                                                 type="checkbox" id="terms" className="form-check-input"
                                                 name="Links[agreement]" value="1"/>
                                                 <label htmlFor="terms" className="form-check-label">
-                                                    <a href="/az/menu/user-agreement-107.html" target="_blank">İstifadəçi
+                                                    <a href="/az/menu/user-agreement-107.html" className="terms" target="_blank">İstifadəçi
                                                         şərtləri</a> ilə razıyam
                                                 </label>
                                         </div>

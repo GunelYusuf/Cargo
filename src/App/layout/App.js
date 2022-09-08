@@ -40,7 +40,7 @@ function App() {
      {/*<Rates/>*/}
      {/*<ShopCountry/>*/}
       <Profile/>
-     <Footer/>
+     {/*<Footer/>*/}
       </>
   );
 }

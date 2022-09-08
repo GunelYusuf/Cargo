@@ -264,11 +264,12 @@ input {
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 8px;
     padding: 11px 15px;
-    color: #fff;
+    background: #fff;
+    color: #2a7519;
 }
 
 .neworder__head h6 span {
-    color: #C9FFC7;
+    color: #2a7519;
     margin-right: 8px;
 }
 
@@ -277,7 +278,7 @@ input {
     border: 0;
     line-height: 24px;
 }
-/*//bilinmir hele//*/
+
 
 .mb-32 {
     margin-bottom: 32px !important;
@@ -286,6 +287,7 @@ input {
 .form-floating>.form-control {
     height: 56px;
     padding: 16px;
+    border-color: #fff;
 }
 
 .input-flex {
@@ -300,6 +302,7 @@ input {
 
 .input-flex .form-floating>label {
     padding-left: 0;
+
 }
 
 .input-flex .form-floating {
@@ -308,6 +311,7 @@ input {
 
 .form-floating>label {
     padding: 16px;
+    color:#2a7519;
 }
 .btn--icon {
     padding: 0;
@@ -333,16 +337,22 @@ input {
 
 .neworder-row .neworder-input {
     flex: 1;
-    height: 56px;
+    height: 60px;
     padding: 15px;
+    color:#2a7519;
+}
+
+#links-product_count{
+    border-color: #ffffff;
 }
 
 .bg-input {
-    height: 56px;
+    height: 58px;
     border-radius: 8px;
     padding: 16px;
     font-weight: 500;
     border: 1px solid #9de08f;
+    background: #ffffff !important;
 }
 
 .neworder-row .neworder-input .input-number-group {
@@ -361,10 +371,16 @@ input {
 }
 
 .neworder-row .neworder-input .symbol {
-    color: #fff;
+    color: #2a7519;
     padding-left: 16px;
 }
 
+
+input[type="number"], textarea {
+    background-color: transparent !important;
+    color: #2a7519;
+    border: none;
+}
 
 .neworder .input-btw {
     gap: 16px;
@@ -401,6 +417,91 @@ input {
     text-align: center;
 }
 
+.dashboard-compact .sidebar__user {
+    padding: 16px;
+    margin-bottom: 16px;
+    z-index: -1;
+}
+
+.open{
+    color: #9de08f;
+}
+
+.add-neworder {
+    width: auto;
+    margin: 24px auto;
+    background: #faa658;
+    color:#ffffff;
+}
+
+.add-neworder:hover {
+    width: auto;
+    margin: 24px auto;
+    background: #ffffff;
+    color: #faa658;
+}
+
+.form-check .form-check-input {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-color: #faa658;
+    position: relative;
+}
+.form-check-label{
+    color:#2a7519;
+}
+.terms {
+    color:#2a7519;
+    text-decoration: none;
+}
+.terms:hover{
+    color: #9de08f;
+}
+
+.signup-form-check {
+    margin: 0 !important;
+}
+.form-check {
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
+}
+
+.neworder-page .final-amount {
+    padding: 40px 16px !important;
+}
+
+.final-amount__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.final-amount__price p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+.final-amount__price h4 {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.final-amount__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.final-amount__buttons .btn:last-child {
+    margin-left: 16px;
+}
+
 @media (max-width: 1399.98px){
     .details-numbers {
         overflow-x: auto;
@@ -424,11 +525,69 @@ input {
         scroll-snap-align: center;
         scroll-snap-stop: always;
     }
+    .neworder-row:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .neworder-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    .neworder-row .neworder-input {
+        margin-bottom: 32px;
+    }
+    .neworder .input-btw {
+        gap: 0;
+    }
+    .input-btw {
+        flex-direction: column;
+    }
+    .neworder small {
+        margin-left: 0;
+    }
+    .neworder .total-price {
+        margin-top: 32px;
+    }
+}
+@media (max-width: 767.98px){
+    .product-link {
+        width: 100%;
+    }
+    .neworder {
+        padding: 37px 61px 59px !important;
+    }
+    .details-headline {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .neworder__head {
+        margin-bottom: 32px;
+    }
+    .final-amount__content {
+        flex-direction: column;
+    }
+    .final-amount__price {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .final-amount__buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    .final-amount__buttons .btn:last-child {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 576px){
     .ms-sm-0 {
         margin-left: 0!important;
+    }
+    .dashboard-compact {
+        margin: 0 16px;
+    }
+    .final-amount__buttons .btn:last-child {
+        margin-top: 0;
+        margin-bottom: 32px;
     }
 }
 
