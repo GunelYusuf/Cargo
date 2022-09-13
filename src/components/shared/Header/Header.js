@@ -12,6 +12,7 @@ import {
 import DrawerComp from "./DrawerComp";
 import './Header.css';
 import {Link} from "react-router-dom";
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
 
@@ -74,6 +75,14 @@ export const Header = () => {
                                         <Tab label="Xəbərlər" />
                                         <Tab label="Bizimlə Əlaqə"  />
                                     </Tabs>
+                                    <Link to='/myorders'>
+                                        <div className="basketAll">
+                                            <ShoppingBasketIcon className="basket"/>
+                                            <span className="cart-count">1</span>
+                                        </div>
+
+                                    </Link>
+
                                     <Button className='logIn' sx={{ marginLeft: "auto" }}>
                                         Giriş
                                     </Button>

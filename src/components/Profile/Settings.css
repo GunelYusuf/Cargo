@@ -1,0 +1,394 @@
+.settings-customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.settings-customer .title {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.settings-customer .customer-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.settings-customer .customer-id {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9FFC7;
+}
+
+.settings-customer .customer-image-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.customer-image-wrapper {
+    text-align: center;
+}
+
+.settings-customer .customer-image-wrapper .customer-image {
+    width: 152px;
+    height: 152px;
+    background: #DFDFDF;
+    box-shadow: 0px 4px 24px rgb(24 28 31 / 20%);
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.customer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.settings {
+    padding: 32px 32px 24px;
+}
+
+.vlct-section {
+    margin-bottom: 88px;
+}
+
+.input-btw {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-grow: 1;
+}
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.form-floating>.form-control:focus ~ label, .form-floating>.form-control:not(:placeholder-shown) ~ label, .form-floating>.form-select ~ label {
+    transform: scale(0.85) translateY(-0.7rem) translateX(0.15rem);
+}
+
+
+
+.form-floating>label {
+    padding: 16px;
+}
+.mb-32 {
+    margin-bottom: 32px !important;
+}
+
+.input-flex .calendar{
+    margin-left: 14px;
+    color: #2a7519;
+    vertical-align: middle;
+}
+.input-width {
+    width: 381px !important;
+    max-width: 381px !important;
+    position: relative;
+}
+
+.serianum{
+    position: absolute;
+    bottom: 0px;
+    left: 49px;
+}
+
+.form-group {
+    display: flex;
+    height: 55px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.selected-label {
+    transform: translate3d(0, -65%, 0) !important;
+    font-size: 80% !important;
+    transition: .1s !important;
+}
+
+.input-down {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.select2-hidden-accessible {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.select2-container {
+    max-width: 370px;
+}
+.select2-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.select2-container {
+    width: 400px;
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.custom_placeholder_select2 .select2-selection--single {
+    margin-bottom: 6px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border: none;
+}
+.select2-container--default .select2-selection--single {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+}
+
+.newcommit-input .input-select {
+    padding-left: 15px;
+}
+
+.form-floating>.form-control, .form-floating>.form-select {
+    height: 56px;
+    padding: 16px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 28px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.custom_placeholder_select2 .select2-selection__rendered {
+    padding-left: 16px !important;
+    color: #fff !important;
+}
+.custom_placeholder_select2{
+    position: relative;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color:#fff !important;
+    position: absolute;
+    bottom: 2px !important;
+    right: 0;
+    top: -4px !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color:#fff !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    position: relative !important;
+    top: -16px !important;
+    right: 10px !important;
+}
+
+#citizen{
+    position: absolute;
+    top: -9px;
+}
+
+.select2-selection__rendered {
+    width: 335px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.custom_placeholder_select2 .select2-selection__arrow {
+    display: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.form-group {
+    display: flex;
+    height: 55px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newcommit-buttons .btn:not(:last-child) {
+    margin-right: 16px;
+}
+.newcommit-buttons .btn {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.btn--secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    font-weight: 500;
+    min-width: 144px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #C9FFC7;
+    border-color: rgba(255,255,255,0.2);
+}
+
+.newcommit-buttons .btn--primary {
+    min-width: 194px;
+}
+.newcommit-buttons .btn {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.newcommit-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+@media (max-width: 1399.98px){
+    .details-numbers {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+}
+@media (max-width: 1199.98px){
+    .sidebar {
+        margin-right: 16px;
+    }
+}
+
+@media (min-width: 992px){
+    .d-lg-table {
+        display: table!important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .details-numbers__number {
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
+
+    .neworder-row:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .neworder-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .neworder-row .neworder-input {
+        margin-bottom: 32px;
+    }
+
+    .neworder .input-btw {
+        gap: 0;
+    }
+
+    .input-btw {
+        flex-direction: column;
+    }
+
+    .neworder small {
+        margin-left: 0;
+    }
+
+    .neworder .total-price {
+        margin-top: 32px;
+    }
+
+    .input-width {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media (max-width: 767.98px){
+    .product-link {
+        width: 100%;
+    }
+    .neworder {
+        padding: 37px 61px 59px !important;
+    }
+    .details-headline {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .neworder__head {
+        margin-bottom: 32px;
+    }
+    .final-amount__content {
+        flex-direction: column;
+    }
+    .final-amount__price {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .final-amount__buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    .final-amount__buttons .btn:last-child {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 576px){
+    .ms-sm-0 {
+        margin-left: 0!important;
+    }
+    .dashboard-compact {
+        margin: 0 16px;
+    }
+    .final-amount__buttons .btn:last-child {
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+}

@@ -17,30 +17,46 @@ import Dasima from "../../components/shared/Dasima/Dasima";
 import Rules from "../../components/shared/Rules/Rules";
 import Contact from "../../components/shared/Contact/Contact";
 import Profile from "../../components/Profile/Profile";
-
-
+import ProductLink from "../../components/Profile/ProductLink";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from "react-router-dom";
+import Settings from "../../components/Profile/Settings";
+import MyOrders from "../../components/Profile/MyOrders";
 
 
 
 function App() {
   return (
       <>
-     <Header/>
-     {/*<Login/>*/}
-     {/*<ForgetPassword/>*/}
-     {/* <About/>*/}
-     {/*<NotFound/>*/}
-     {/* <FAQ/>*/}
-     {/*<ProhibitedItems/>*/}
-     {/* <Rules/>*/}
-     {/*<Contact/>*/}
-     {/*<Dasima/>*/}
-     {/*<Register/>*/}
-     {/*<Carousel/>*/}
-     {/*<Rates/>*/}
-     {/*<ShopCountry/>*/}
-      <Profile/>
-     {/*<Footer/>*/}
+          <Header/>
+
+          <Routes>
+              <Route path="/" exact element={<Profile/>} />
+              <Route path={'/productlink'} exact element={<ProductLink/>}/>
+              <Route path={'/setting'} element={<Settings/>}/>
+              <Route path={'/myorders'} element={<MyOrders/>}/>
+          </Routes>
+
+              {/*<Login/>*/}
+              {/*<ForgetPassword/>*/}
+              {/* <About/>*/}
+              {/*<NotFound/>*/}
+              {/* <FAQ/>*/}
+              {/*<ProhibitedItems/>*/}
+              {/* <Rules/>*/}
+              {/*<Contact/>*/}
+              {/*<Dasima/>*/}
+              {/*<Register/>*/}
+              {/*<Carousel/>*/}
+              {/*<Rates/>*/}
+              {/*<ShopCountry/>*/}
+              {/*<Footer/>*/}
+
+
       </>
   );
 }

@@ -1,0 +1,239 @@
+.orders-page .details-headline {
+    padding-top: 14px !important;
+}
+
+.details-headline--buttons {
+    display: block;
+    padding-bottom: 24px;
+}
+
+.details-headline {
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 8px;
+}
+
+.orders-page .details-headline--buttons .details-headline__row:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.details-headline--buttons .details-headline__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-headline--buttons .details-headline__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders-page .details-headline h4 {
+    margin-bottom: 0;
+}
+
+.details-headline--buttons .btn {
+    padding: 16px 20px;
+}
+
+.open{
+    color: #3fcb3f;
+}
+
+.tabs-adjacent {
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    display: flex;
+}
+
+.orders-page .btn--adjacent-tab {
+    min-width: 152px;
+}
+
+.tabs-adjacent .btn--adjacent-tab {
+    padding: 15px 68px;
+    color: #fff;
+    flex: 1 1 auto;
+    white-space: nowrap;
+}
+.details-headline--buttons .btn--adjacent-tab {
+    padding: 15px 27px !important;
+    margin-left: 0 !important;
+    height: 56px;
+}
+.details-headline--buttons .btn {
+    padding: 16px 20px;
+    width: auto;
+}
+.details-headline .btn {
+    width: auto;
+}
+
+.tabs-adjacent .btn--adjacent-tab {
+    color: #fff;
+    flex: 1 1 auto;
+    white-space: nowrap;
+}
+.details-headline--buttons .btn--adjacent-tab {
+    padding: 15px 27px !important;
+    margin-left: 0 !important;
+    height: 56px;
+}
+.details-headline--buttons .btn {
+    width: auto;
+}
+
+.tabs-adjacent .btn--adjacent-tab span {
+    line-height: 24px;
+    font-weight: 500;
+    color:#000000;
+}
+
+is-tab-active span {
+    color: #C9FFC7 !important;
+}
+
+.is-tab-active {
+    background-color: #C9FFC7;
+    box-shadow: 0px 4px 24px rgb(24 28 31 / 20%);
+    border-color: transparent !important;
+    border-radius: 8px;
+}
+
+.has-show {
+    display: block !important;
+    opacity: 1 !important;
+}
+.vlct-section {
+    margin-bottom: 88px;
+}
+
+.orders.carts .order {
+    padding-left: 16px !important;
+    margin-top: 16px;
+}
+
+.orders.carts .order .form-check {
+    height: auto;
+}
+
+.orders.carts .form-check {
+    display: flex;
+    align-items: normal;
+}
+
+.orders.carts .form-check-input {
+    margin-right: 16px;
+}
+
+.form-check .form-check-input {
+    height: 24px;
+    width: 24px;
+    border: 2px solid rgba(255,255,255,0.2);
+    background-color: transparent;
+    position: relative;
+}
+
+.orders.carts .order-row {
+    border-bottom: none;
+    padding: 0;
+}
+
+.product-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.product-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.orders .order-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.product-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.product-link .link {
+    background-color: transparent;
+    border: none;
+    margin-left: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 450px;
+    width: 450px;
+}
+
+.product-text {
+    color: rgba(39, 112, 38, 0.7);
+}
+
+.product-link .btn {
+    margin-left: 55px;
+}
+
+.btn--icon {
+    padding: 0;
+    border: 0;
+    line-height: 24px;
+}
+
+.orders.carts .final-amount {
+    margin: 16px 0;
+}
+.orders-page .final-amount {
+    padding: 24px 16px 32px !important;
+}
+
+
+.final-amount__price p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.final-amount__price h4 {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.final-amount__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.final-amount__buttons .btn:last-child {
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.orders.carts .orders-notice {
+    font-weight: 500;
+    color: rgba(39, 112, 38, 0.7);
+}
+
+.orders.carts .orders-notice a{
+    color:#faa658;
+}
+
+.orders.carts .orders-notice a:hover{
+    color: #255919;
+}

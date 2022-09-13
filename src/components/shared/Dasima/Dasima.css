@@ -14,11 +14,11 @@
 .editor-content {
     color: #1a2b41;
 }
-li {
-    padding: 10px;
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
+/*li {*/
+/*    padding: 10px;*/
+/*    display: list-item;*/
+/*    text-align: -webkit-match-parent;*/
+/*}*/
 
 ::marker {
     unicode-bidi: isolate;

@@ -128,6 +128,45 @@ a{
     color: #302e4d !important;
 }
 
+.basketAll{
+    position: relative;
+    left:150px;
+}
+
+.basket{
+    color:#983 !important;
+    margin-right: 20px;
+}
+
+
+.cart-count {
+    top: -12px;
+    right: 0px;
+    position: absolute;
+    margin-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 22px;
+    background-color: #EC1C24 !important;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+@media only screen and (max-width: 1390px){
+    .basketAll{
+        left:86px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .basketAll{
+        left:11px;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .header-top-holder-navigation-list-link,.header-top-holder-phone-label,.header-top-holder-phone-icon,.order-button{
         display: none !important;
