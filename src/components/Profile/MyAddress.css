@@ -1,0 +1,43 @@
+.addresses .details-headline {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.details-info {
+    padding: 32px;
+    position: relative;
+}
+
+.vlct-section {
+    margin-bottom: 88px;
+}
+
+.has-show {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.details-info .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 23px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.details-info .data__title {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.data div, .data input {
+    width: 100% !important;
+}
+
+.copy{
+    color:#75b964;
+}

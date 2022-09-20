@@ -1,0 +1,56 @@
+.has-show {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.balance-current {
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
+.balance-current__info {
+    display: flex;
+    align-items: center;
+}
+
+.balance-current__info .title {
+    color: #C9FFC7;
+}
+
+.balance-current__info .balance {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.balance-current .input-number-group {
+    position: relative;
+}
+
+.balance-current .input-number-group .input-number {
+    max-width: 200px;
+    text-align: left;
+}
+
+.balance-current .input-number-group .input-number {
+    width: 100%;
+}
+.balance-current .input-number-group .input-number {
+    max-width: 175px;
+    margin-right: auto;
+    text-align: right;
+    top: -15px;
+}
+
+.balance-current .input-number-group .btn--primary {
+    width: auto;
+    padding: 16px 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+input[type="number"]{
+    color: #23272a;
+}

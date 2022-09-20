@@ -17,6 +17,9 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
 export const Header = () => {
+
+
+
     const [value, setValue] = useState(0);
     const theme = useTheme();
 
@@ -37,7 +40,7 @@ export const Header = () => {
                                     </div>
                                 </div>
                                 <div className="header-top-holder-action">
-                                    <Link to="#" className='order-button' ><span>Sifariş et</span></Link>
+                                    <Link to="/ProductLink" className='order-button' ><span>Sifariş et</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +48,6 @@ export const Header = () => {
                          <div className="header-logo">
                              <Link to='#'><span >AlfaEx</span></Link>
                          </div>
-
                             {isMatch ? (
                                 <>
                                     <Typography sx={{ fontSize: "2rem", paddingLeft: "70%" }}>
@@ -78,7 +80,7 @@ export const Header = () => {
                                     <Link to='/myorders'>
                                         <div className="basketAll">
                                             <ShoppingBasketIcon className="basket"/>
-                                            <span className="cart-count">1</span>
+                                            <span className="cart-count">0</span>
                                         </div>
 
                                     </Link>
