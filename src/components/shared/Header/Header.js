@@ -16,6 +16,7 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
 
+
 export const Header = () => {
 
 
@@ -84,7 +85,6 @@ export const Header = () => {
                                         </div>
 
                                     </Link>
-
                                     <Button className='logIn' sx={{ marginLeft: "auto" }}>
                                         Giriş
                                     </Button>

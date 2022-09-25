@@ -12,9 +12,14 @@ import './Settings.css';
 import photo from './no-photo.jpeg';
 import {Link} from "react-router-dom";
 import CurrentSection from "./CurrentSection";
+import {AppBar, Button, Toolbar, Typography, useMediaQuery, useTheme} from "@mui/material";
+import DrawerProfile from "../shared/Header/DrawerProfile";
 
 function Profile() {
     const [section, setSection] = useState(0);
+    const theme = useTheme();
+
+    const isMatch = useMediaQuery(theme.breakpoints.down("md"));
     return (
         <>
             <div className="container d-flex" style={{marginTop:150}}>
@@ -74,51 +79,65 @@ function Profile() {
                         </div>
                     </div>
                 </aside>
-                <div className="fill addresses">
-                    <section className="dashboard-compact d-lg-none">
-                        <div className="sidebar__user   section-structure">
-                            <div className="user-image-dsk">
-                                <div className="user-image">
-                                    <img src={photo} alt="Gunel Yusubova"/>
-                                </div>
-                            </div>
-                            <div className="user-info">
-                                <div>
-                                    <div className="user-name">Gunel Yusubova</div>
-                                    <div className="user-id">ID: <span>VL366097</span></div>
-                                </div>
-                               <KeyboardArrowDownOutlinedIcon/>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="details-numbers ms-3 ms-sm-0">
-                        <a href="#" className=" details-numbers__number section-structure">
-                            <AvTimerOutlinedIcon className="timer"/>
-                            <h6>Bu ay üzrə limit</h6>
-                            <div className="figure">$ 0</div>
-                        </a>
-                        <a href="/parcel/index?lang=az" className=" details-numbers__number section-structure">
-                            <Inventory2OutlinedIcon  className="invent"/>
-                            <h6>Bağlamalarım</h6>
-                            <div className="figure">0</div>
-                        </a>
-                        <Link to="#" onClick={()=> setSection(6)}
-                           className=" details-numbers__number section-structure">
-                            <CurrencyLiraOutlinedIcon  className="currency"/>
-                            <h6>Sifariş balansım</h6>
-                            <div className="figure">0 ₺</div>
-                        </Link>
-                        <Link to="#" onClick={()=> setSection(7)}
-                           className="details-numbers__number section-structure">
-                            <MonetizationOnOutlinedIcon  className="money"/>
-                            <h6>Daşınma balansım</h6>
-                            <div className="figure">0 AZN</div>
-                        </Link>
-                    </section>
 
-                   <CurrentSection step={section}/>
+                 <div className="fill addresses">
+                     <section className="dashboard-compact">
+                         <Toolbar>
+                             {isMatch ? (
+                                 <>
+                                     <div className="sidebar__user   section-structure">
+                                         <div className="user-image-dsk">
+                                             <div className="user-image">
+                                                 <img src={photo} alt="Gunel Yusubova"/>
+                                             </div>
+                                         </div>
+                                         <div className="user-info">
+                                             <div>
+                                                 <div className="user-name">Gunel Yusubova</div>
+                                                 <div className="user-id">ID: <span>VL366097</span></div>
+                                             </div>
+                                             <KeyboardArrowDownOutlinedIcon/>
+                                         </div>
+                                     </div>
+                                     <DrawerProfile />
+                                 </>
 
-                </div>
+                             ) : (
+                                 null
+                             ) }
+                         </Toolbar>
+
+                     </section>
+                     <section className="details-numbers ms-3 ms-sm-0">
+                         <a href="#" className=" details-numbers__number section-structure">
+                             <AvTimerOutlinedIcon className="timer"/>
+                             <h6>Bu ay üzrə limit</h6>
+                             <div className="figure">$ 0</div>
+                         </a>
+                         <a href="/parcel/index?lang=az" className=" details-numbers__number section-structure">
+                             <Inventory2OutlinedIcon  className="invent"/>
+                             <h6>Bağlamalarım</h6>
+                             <div className="figure">0</div>
+                         </a>
+                         <Link to="#" onClick={()=> setSection(6)}
+                               className=" details-numbers__number section-structure">
+                             <CurrencyLiraOutlinedIcon  className="currency"/>
+                             <h6>Sifariş balansım</h6>
+                             <div className="figure">0 ₺</div>
+                         </Link>
+                         <Link to="#" onClick={()=> setSection(7)}
+                               className="details-numbers__number section-structure">
+                             <MonetizationOnOutlinedIcon  className="money"/>
+                             <h6>Daşınma balansım</h6>
+                             <div className="figure">0 AZN</div>
+                         </Link>
+                     </section>
+
+                     <CurrentSection step={section}/>
+
+                 </div>
+
+
            </div>
 
         </>
